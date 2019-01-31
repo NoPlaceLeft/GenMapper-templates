@@ -1,0 +1,19 @@
+{
+  "name": "genmapper-templates",
+  "version": "1.0.0",
+  "description": "Templates for the GenMapper",
+  "main": "index",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoPlaceLeft/GenMapper-templates.git"
+  },
+  "author": "Joel Cox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoPlaceLeft/GenMapper-templates/issues"
+  },
+  "homepage": "https://github.com/NoPlaceLeft/GenMapper-templates#readme"
+}
