@@ -341,6 +341,13 @@ export const ChurchCirclesTemplate: GMTemplate = {
             }
         },
         {
+            header: 'gospelShares',
+            initial: 0,
+            type: 'number',
+            canModify: true,
+            canModifyVisibility: false
+        },
+        {
             header: 'church',
             initial: false,
             type: 'checkbox',
@@ -394,7 +401,6 @@ export const ChurchCirclesTemplate: GMTemplate = {
                     'xlink:href': 'templates/church-circles/icons/element-baptism.png'
                 }
             },
-
         },
         {
             header: 'elementWord',
@@ -591,6 +597,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
                     'elementWorship': 'Element: Worship',
                     'elementLeaders': 'Element: Leaders',
                     'elementMakeDisciples': 'Element: Make disciples',
+                    'gospelShares': 'Gospel shares per day',
                     'place': 'Place (City, State, Country)',
                     'location': 'Geo Location',
                     'date': 'Date of Start (Ex. 2017-01)',
@@ -637,6 +644,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
                     'elementWorship': 'Element: Lobpreis',
                     'elementLeaders': 'Element: Leiter',
                     'elementMakeDisciples': 'Element: Multiplikation',
+                    'gospelShares': 'Evangeliumaktien pro Tag',
                     'place': 'Ort (Stadt, Region, Land)',
                     'location': 'Adresse',
                     'date': 'Startdatum (z.B. 2017-01)',
@@ -685,6 +693,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
                     'elementWorship': 'Elemento: Adorar',
                     'elementLeaders': 'Elemento: Lider',
                     'elementMakeDisciples': 'Elemento: Hacer discípulos',
+                    'gospelShares': 'Acciones del evangelio por día',
                     'place': 'Lugar (Ciudad, Provincia, Pais):',
                     'location': 'Ubicación geográfica',
                     'initialPlace': 'Lugar',
@@ -729,6 +738,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
                     'elementWorship': 'Prvek: Oslava Ježíše',
                     'elementLeaders': 'Prvek: Vedoucí',
                     'elementMakeDisciples': 'Prvek: Činění učedníků',
+                    'gospelShares': 'Podíl evangelia za den',
                     'place': 'Místo',
                     'location': 'Geo Umístění',
                     'date': 'Datum začátku (např. 2017-01)',
