@@ -485,7 +485,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
             svg: {
                 'type': 'image',
                 'attributes': {
-                    'x': boxHeight * 0.15,
+                    'x': -boxHeight * 0.125,
                     'y': boxHeight * 0.1,
                     'width': boxHeight / 4,
                     'height': boxHeight / 4,
@@ -503,7 +503,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
                 'type': 'image',
                 'attributes': {
                     'x': boxHeight * 0.15,
-                    'y': boxHeight * 0.65,
+                    'y': boxHeight * 0.1,
                     'width': boxHeight / 4,
                     'height': boxHeight / 4,
                     'xlink:href': 'templates/church-circles/icons/element-make-disciples.png'
@@ -519,7 +519,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
             svg: {
                 'type': 'image',
                 'attributes': {
-                    'x': boxHeight * 0.15,
+                    'x': -boxHeight * 0.4,
                     'y': boxHeight * 0.375,
                     'width': boxHeight / 4,
                     'height': boxHeight / 4,
@@ -536,8 +536,8 @@ export const ChurchCirclesTemplate: GMTemplate = {
             svg: {
                 'type': 'image',
                 'attributes': {
-                    'x': -boxHeight * 0.4,
-                    'y': boxHeight * 0.65,
+                    'x': -boxHeight * 0.125,
+                    'y': boxHeight * 0.375,
                     'width': boxHeight / 4,
                     'height': boxHeight / 4,
                     'xlink:href': 'templates/church-circles/icons/element-worship.png'
@@ -553,7 +553,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
             svg: {
                 'type': 'image',
                 'attributes': {
-                    'x': -boxHeight * 0.4,
+                    'x': boxHeight * 0.15,
                     'y': boxHeight * 0.375,
                     'width': boxHeight / 4,
                     'height': boxHeight / 4,
@@ -570,8 +570,8 @@ export const ChurchCirclesTemplate: GMTemplate = {
             svg: {
                 'type': 'image',
                 'attributes': {
-                    'x': -boxHeight * 0.125,
-                    'y': boxHeight * 0.375,
+                    'x': -boxHeight * 0.4,
+                    'y': boxHeight * 0.65,
                     'width': boxHeight / 4,
                     'height': boxHeight / 4,
                     'xlink:href': 'templates/church-circles/icons/element-give.png'
@@ -588,7 +588,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
                 'type': 'image',
                 'attributes': {
                     'x': -boxHeight * 0.125,
-                    'y': boxHeight * 0.1,
+                    'y': boxHeight * 0.65,
                     'width': boxHeight / 4,
                     'height': boxHeight / 4,
                     'xlink:href': 'templates/church-circles/icons/element-word.png'
@@ -605,7 +605,7 @@ export const ChurchCirclesTemplate: GMTemplate = {
             svg: {
                 'type': 'image',
                 'attributes': {
-                    'x': -boxHeight * 0.125,
+                    'x': boxHeight * 0.15,
                     'y': boxHeight * 0.65,
                     'width': boxHeight / 4,
                     'height': boxHeight / 4,
