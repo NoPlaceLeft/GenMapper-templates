@@ -8,12 +8,12 @@ const boxHeight = 100;
 const textHeight = 14;
 const textMargin = 6;
 
-export const ChurchCirclesOkcTemplate: GMTemplate = {
+export const ChurchCircles12Template: GMTemplate = {
     version: '0.6',
-    title: 'Church Circles OKC',
-    name: 'church-circles-okc',
+    title: 'Church Circles 12 Practices',
+    name: 'church-circles-12',
     format: 'churchCirclesOkc',
-    // icon: 'templates/church-circles-okc/icons/display.png',
+    icon: 'templates/church-circles-12/icons/display.png',
     settings: {
         'textHeight': textHeight,
         'boxHeight': boxHeight,
@@ -46,7 +46,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                 'y': -2.8 * textHeight,
                 'width': boxHeight / 4,
                 'height': boxHeight / 4,
-                'xlink:href': 'templates/church-circles-okc/icons/attenders.png'
+                'xlink:href': 'templates/church-circles-12/icons/attenders.png'
             }
         },
         'believers-image': {
@@ -56,7 +56,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                 'y': -2.8 * textHeight,
                 'width': boxHeight / 4,
                 'height': boxHeight / 4,
-                'xlink:href': 'templates/church-circles-okc/icons/believers.png'
+                'xlink:href': 'templates/church-circles-12/icons/believers.png'
             }
         },
         'baptized-image': {
@@ -66,7 +66,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                 'y': -2.8 * textHeight,
                 'width': boxHeight / 4,
                 'height': boxHeight / 4,
-                'xlink:href': 'templates/church-circles-okc/icons/element-baptism.png'
+                'xlink:href': 'templates/church-circles-12/icons/element-baptism.png'
             }
         },
         'church-box': {
@@ -401,7 +401,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.165,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-gospel.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-gospel.png'
                 }
             }
         },
@@ -418,7 +418,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.165,
                     'width': boxHeight / 7,
                     'height': boxHeight / 7,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-repent.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-repent.png'
                 }
             }
         },
@@ -435,7 +435,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.165,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-baptism.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-baptism.png'
                 }
             },
         },
@@ -452,7 +452,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.165,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-holy-spirit.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-holy-spirit.png'
                 }
             },
 
@@ -470,7 +470,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.4,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-word.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-word.png'
                 }
             },
 
@@ -488,7 +488,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.4,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-love.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-love.png'
                 }
             }
         },
@@ -505,7 +505,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.4,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-lords-supper.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-lords-supper.png'
                 }
             }
         },
@@ -522,7 +522,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.4,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-prayer.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-prayer.png'
                 }
             },
         },
@@ -539,7 +539,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.65,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-signs-wonders.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-signs-wonders.png'
                 }
             },
         },
@@ -556,7 +556,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.65,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-give.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-give.png'
                 }
             },
         },
@@ -573,7 +573,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.65,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-worship.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-worship.png'
                 }
             }
         },
@@ -590,7 +590,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'y': boxHeight * 0.65,
                     'width': boxHeight / 6,
                     'height': boxHeight / 6,
-                    'xlink:href': 'templates/church-circles-okc/icons/element-make-disciples.png'
+                    'xlink:href': 'templates/church-circles-12/icons/element-make-disciples.png'
                 }
             }
         },
@@ -622,6 +622,13 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'letter-spacing': '0.35em'
                 }
             }
+        },
+        {
+            'header': 'note',
+            'initial': ' ',
+            'type': 'textarea',
+            'canModify': true,
+            'canModifyVisibility': true,
         }
     ],
     translations: {
@@ -665,6 +672,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'initialLeadersName': 'Leader\'s Name',
                     'initialPlace': 'Place',
                     'initialDate': 'Date',
+                    'note': 'Note',
                     'threeThirdsPastoralCare': 'Pastoral Care',
                     'threeThirdsWorship': 'Worship',
                     'threeThirdsAccountability': 'Accountability',
@@ -722,6 +730,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'threeThirdsBibleTeaching': 'Bible Teaching',
                     'threeThirdsPractice': 'Practice',
                     'threeThirdsGoalSetting': 'Goal Setting & Commission',
+                    'note': 'Hinweis',
                 }
             }
         },
@@ -772,6 +781,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'threeThirdsBibleTeaching': 'Bible Teaching',
                     'threeThirdsPractice': 'Practice',
                     'threeThirdsGoalSetting': 'Goal Setting & Commission',
+                    'note': 'Nota',
                 }
             }
         },
@@ -822,6 +832,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'threeThirdsBibleTeaching': 'Bible',
                     'threeThirdsPractice': 'Procvičování',
                     'threeThirdsGoalSetting': 'Akční kroky a modlitba',
+                    'note': 'Poznámka',
                 }
             }
         },
@@ -872,6 +883,7 @@ export const ChurchCirclesOkcTemplate: GMTemplate = {
                     'threeThirdsBibleTeaching': 'បង្រៀនព្រះគម្ពីរ',
                     'threeThirdsPractice': 'អនុវត្ត',
                     'threeThirdsGoalSetting': 'ការកំណត់គោលដៅ & គណៈកម្មការ',
+                    'note': 'ಸೂಚನೆ',
                 }
             }
         }
