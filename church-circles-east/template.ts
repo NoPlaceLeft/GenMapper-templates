@@ -1,4 +1,4 @@
-import { GMTemplate, ControlType } from '../template.interface';
+import { GMTemplate } from '../template.interface';
 
 // export interface ChurchCirclesTemplateType extends GMTemplate {
 //     translations: { [key: string]: { translation: { [key: string]: ChurchCirclesTranslation } } };
@@ -13,14 +13,14 @@ export const nodeWidth = 156;
 export const nodeHeight = 222;
 
 
-export const ChurchCirclesWorldTemplate: GMTemplate = {
-    id: 'churchCirclesWorld',
-    name: 'Church Circles World',
-    i18nName: 'churchCirclesWorld.ChurchCirclesWorld',
+export const ChurchCirclesEastTemplate: GMTemplate = {
+    id: 'churchCirclesEast',
+    name: 'Church Circles East',
+    i18nName: 'churchCirclesEast.ChurchCirclesEast',
     theme: 'churchCirclesDefault',
-    defaultConfiguration: 'churchCirclesWorld',
+    defaultConfiguration: 'churchCirclesEast',
     settings: {
-        iconUrl: 'templates/church-circles-world/icons/display.png'
+        iconUrl: 'templates/church-circles-east/icons/display.png'
     },
     svgSettings: {
         textHeight: textHeight,
@@ -292,7 +292,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
     translations: {
         en: {
             translation: {
-                'churchCirclesWorld': {
+                'churchCirclesEast': {
                     'active': 'Active',
                     'attenders': '# of Attenders',
                     'baptized': '# of Baptized',
@@ -326,7 +326,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
                     'newlyBaptized': '# of New Baptized (since church start)',
                     'note': 'Note',
                     'parent': 'Parent Node',
-                    'peopleGroups': 'People Groups',
+                    'Common_PeopleGroups': 'People Groups',
                     'place': 'Place (City, State, Country)',
                     'threeThirds': 'Elements of 3/3 process',
                     'threeThirdsAccountability': 'Accountability',
@@ -341,7 +341,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
         },
         de: {
             translation: {
-                'churchCirclesWorld': {
+                'churchCirclesEast': {
                     'active': 'aktiv',
                     'attenders': 'Anzahl Teilnehmer',
                     'baptized': 'Anzahl Getaufte',
@@ -375,7 +375,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
                     'newlyBaptized': 'Anzahl frisch Getaufte (seit Gemeindestart)',
                     'note': 'Hinweis',
                     'parent': 'Parent Node',
-                    'peopleGroups': 'Sprache / Subkultur',
+                    'Common_PeopleGroups': 'Sprache / Subkultur',
                     'place': 'Ort (Stadt, Region, Land)',
                     'threeThirds': 'Elemente des 3/3-Prozesses (siehe Hilfe für mehr Informationen)',
                     'threeThirdsAccountability': 'Accountability',
@@ -390,7 +390,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
         },
         es: {
             translation: {
-                'churchCirclesWorld': {
+                'churchCirclesEast': {
                     'active': 'Activo',
                     'attenders': '# of participantes',
                     'baptized': '# of bautizados',
@@ -424,7 +424,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
                     'newlyBaptized': '# of nuevos bautizados (desde inicio de iglesia)',
                     'note': 'Nota',
                     'parent': 'Parent Node',
-                    'peopleGroups': 'Etnia',
+                    'Common_PeopleGroups': 'Etnia',
                     'place': 'Lugar (Ciudad, Provincia, Pais):',
                     'threeThirds': 'Elementos del proceso de 3/3  (Ver ayuda para detalles):',
                     'threeThirdsAccountability': 'Accountability',
@@ -439,7 +439,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
         },
         cs: {
             translation: {
-                'churchCirclesWorld': {
+                'churchCirclesEast': {
                     'active': 'Aktivní',
                     'attenders': 'Počet účastníků',
                     'baptized': 'Počet pokřtěných',
@@ -473,7 +473,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
                     'newlyBaptized': 'Počet nově pokřtěných (od začátku skupiny)',
                     'note': 'Poznámka',
                     'parent': 'Parent Node',
-                    'peopleGroups': 'Etnikum',
+                    'Common_PeopleGroups': 'Etnikum',
                     'place': 'Místo',
                     'threeThirds': 'Prvky 3/3 (viz nápovědu pro více info)',
                     'threeThirdsAccountability': 'Návrat / Vykazatelnost',
@@ -488,7 +488,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
         },
         kn: {
             translation: {
-                'churchCirclesWorld': {
+                'churchCirclesEast': {
                     'active': 'សកម្ម',
                     'attenders': 'ចំនួនអ្នកចូលរួម',
                     'baptized': '# នៃពិធីបុណ្យជ្រមុជទឹក',
@@ -522,7 +522,7 @@ export const ChurchCirclesWorldTemplate: GMTemplate = {
                     'newlyBaptized': '# នៃពិធីបុណ្យជ្រមុជទឹកថ្មី(ចាប់តាំងពីការចាប់ផ្តើមនៅព្រះវិហារ)',
                     'note': 'ಸೂಚನೆ',
                     'parent': 'Parent Node',
-                    'peopleGroups': 'ក្រុមមនុស្ស',
+                    'Common_PeopleGroups': 'ក្រុមមនុស្ស',
                     'place': 'ទីកន្លែង(ទីក្រុង, រដ្ឋ, ប្រទេស)',
                     'threeThirds': 'ធាតុនៃដំណើរការ 3 / 3',
                     'threeThirdsAccountability': 'គណនេយ្យភាព',

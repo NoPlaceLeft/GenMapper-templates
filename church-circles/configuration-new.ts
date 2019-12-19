@@ -3,18 +3,18 @@ import { ControlType, TemplateConfiguration } from '../template.interface';
 export const ChurchCirclesConfiguration: TemplateConfiguration = {
     id: 'churchCircles',
     icons: {
-        attenders: 'templates/church-circles/icons/attenders.png',
-        believers: 'templates/church-circles/icons/believers.png',
-        baptism: 'templates/church-circles/icons/element-baptism.png',
-        elementBaptism: 'templates/church-circles/icons/element-baptism.png',
-        elementPrayer: 'templates/church-circles/icons/element-prayer.png',
-        elementMakeDisciples: 'templates/church-circles/icons/element-make-disciples.png',
-        elementLove: 'templates/church-circles/icons/element-love.png',
-        elementWorship: 'templates/church-circles/icons/element-worship.png',
-        elementLordsSupper: 'templates/church-circles/icons/element-lords-supper.png',
-        elementGive: 'templates/church-circles/icons/element-give.png',
-        elementWord: 'templates/church-circles/icons/element-word.png',
-        elementLeaders: 'templates/church-circles/icons/element-leaders.png',
+        attendersIcon: 'templates/church-circles/icons/attenders.png',
+        believersIcon: 'templates/church-circles/icons/believers.png',
+        baptismIcon: 'templates/church-circles/icons/element-baptism.png',
+        elementBaptismIcon: 'templates/church-circles/icons/element-baptism.png',
+        elementPrayerIcon: 'templates/church-circles/icons/element-prayer.png',
+        elementMakeDisciplesIcon: 'templates/church-circles/icons/element-make-disciples.png',
+        elementLoveIcon: 'templates/church-circles/icons/element-love.png',
+        elementWorshipIcon: 'templates/church-circles/icons/element-worship.png',
+        elementLordsSupperIcon: 'templates/church-circles/icons/element-lords-supper.png',
+        elementGiveIcon: 'templates/church-circles/icons/element-give.png',
+        elementWordIcon: 'templates/church-circles/icons/element-word.png',
+        elementLeadersIcon: 'templates/church-circles/icons/element-leaders.png',
     },
     fields: [
         {
@@ -66,7 +66,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            iconRef: 'elementBaptism'
+            iconRef: 'elementBaptismIcon'
         },
         {
             id: 'elementPrayer',
@@ -74,7 +74,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            iconRef: 'elementPrayer',
+            iconRef: 'elementPrayerIcon',
         },
         {
             id: 'elementMakeDisciples',
@@ -82,7 +82,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            iconRef: 'elementMakeDisciples'
+            iconRef: 'elementMakeDisciplesIcon'
         },
         {
             id: 'elementLove',
@@ -90,7 +90,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            iconRef: 'elementLove',
+            iconRef: 'elementLoveIcon',
         },
         {
             id: 'elementWorship',
@@ -98,7 +98,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            iconRef: 'elementWorship',
+            iconRef: 'elementWorshipIcon',
         },
         {
             id: 'elementLordsSupper',
@@ -106,7 +106,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            iconRef: 'elementLordsSupper',
+            iconRef: 'elementLordsSupperIcon',
         },
         {
             id: 'elementGive',
@@ -114,7 +114,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            iconRef: 'elementGive',
+            iconRef: 'elementGiveIcon',
         },
         {
             id: 'elementWord',
@@ -122,7 +122,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            iconRef: 'elementWord',
+            iconRef: 'elementWordIcon',
         },
         {
             id: 'elementLeaders',
@@ -130,7 +130,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            iconRef: 'elementLeaders',
+            iconRef: 'elementLeadersIcon',
         },
         {
             id: 'attenders',
@@ -138,7 +138,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: 0,
             type: ControlType.number,
             canModify: true,
-            iconRef: 'attenders',
+            iconRef: 'attendersIcon',
         },
         {
             id: 'believers',
@@ -146,7 +146,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: 0,
             type: ControlType.number,
             canModify: true,
-            iconRef: 'believers',
+            iconRef: 'believersIcon',
         },
         {
             id: 'baptized',
@@ -154,7 +154,7 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: 0,
             type: ControlType.number,
             canModify: true,
-            iconRef: 'elementBaptism'
+            iconRef: 'elementBaptismIcon'
         },
         {
             id: 'newlyBaptized',
@@ -249,16 +249,6 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: false,
             type: ControlType.checkbox,
             canModify: true,
-            options: [
-                {
-                    value: true,
-                    svgRefClass: 'is-church',
-                },
-                {
-                    value: false,
-                    svgRefClass: 'is-not-church'
-                }
-            ],
         },
         {
             id: 'churchType',
@@ -270,26 +260,10 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
                 {
                     value: 'legacy',
                     i18nRef: 'churchCircles.churchTypeLegacy',
-                    // svgRefOptions: {
-                    //     target: '.node-church-box',
-                    //     attributes: {
-                    //         'rx': 0,
-                    //     },
-                    //     style: {
-                    //         'stroke-width': 4,
-                    //         'stroke': 'green'
-                    //     }
-                    // }
                 },
                 {
                     value: 'existingBelievers',
                     i18nRef: 'churchCircles.churchTypeExistingBelievers',
-                    // svgRefOptions: {
-                    //     target: '.node-church-box',
-                    //     attributes: {
-                    //         'rx': 0,
-                    //     }
-                    // }
                 },
                 {
                     value: 'newBelievers',
@@ -303,7 +277,6 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             defaultValue: [],
             type: ControlType.multiSelect,
             canModify: true,
-            parseOptionValueAsInt: true,
             options: [
                 {
                     value: "1",
@@ -342,357 +315,390 @@ export const ChurchCirclesConfiguration: TemplateConfiguration = {
             canModify: true,
         }
     ],
-    svgMap: [
+    svgStates: [
         {
-            svgRef: 'church-box',
-            state: [
+            selector: 'church-box',
+            states: [
                 {
-                    style: 'stroke-dasharray',
-                    fieldRef: 'church',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: '0'
+                    fieldRefId: 'church',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            'stroke-dasharray': '0'
+                        }
+                    }
+                },
+                {
+                    fieldRefId: 'church',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            'stroke-dasharray': '7,7'
+                        }
+                    }
+                },
+                {
+                    fieldRefId: 'churchType',
+                    fieldRefValue: 'legacy',
+                    svg: {
+                        attributes: {
+                            'rx': 0
                         },
-                        {
-                            value: false,
-                            styleValue: '7,7'
+                        style: {
+                            'stroke': 'green',
+                            'stroke-width': 4
                         }
-                    ]
+                    }
                 },
                 {
-                    style: 'stroke-width',
-                    fieldRef: 'churchType',
-                    fieldRefValues: [
-                        {
-                            value: 'legacy',
-                            styleValue: 4,
+                    fieldRefId: 'churchType',
+                    fieldRefValue: 'existingBelievers',
+                    svg: {
+                        attributes: {
+                            'rx': 0
                         }
-                    ]
+                    }
                 },
                 {
-                    style: 'stroke-opacity',
-                    fieldRef: 'active',
-                    fieldRefValues: [
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'active',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            'stroke-opacity': 0.2
                         }
-                    ]
+                    }
                 },
                 {
-                    style: 'stroke',
-                    fieldRef: 'churchType',
-                    fieldRefValues: [
-                        {
-                            value: 'legacy',
-                            styleValue: 'green',
+                    fieldRefId: 'active',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            'stroke-opacity': 1
                         }
-                    ]
-                },
-                {
-                    attr: 'rx',
-                    fieldRef: 'churchType',
-                    fieldRefValues: [
-                        {
-                            value: 'legacy',
-                            styleValue: 0,
-                        },
-                        {
-                            value: 'existingBelievers',
-                            styleValue: 0,
-                        }
-                    ]
+                    }
                 }
             ]
         },
         {
-            svgRef: 'topIcon1',
-            iconRef: 'attenders',
+            selector: 'topIcon1',
+            iconRef: 'attendersIcon',
             tooltipFieldRef: 'attenders',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'active',
-                    fieldRefValues: [
-                        {
-                            value: false,
-                            styleValue: 0.4
+                    fieldRefId: 'active',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.4
                         }
-                    ]
+                    }
                 }
             ]
         },
         {
-            svgRef: 'topIcon2',
-            iconRef: 'believers',
+            selector: 'topIcon2',
+            iconRef: 'believersIcon',
             tooltipFieldRef: 'believers',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'active',
-                    fieldRefValues: [
-                        {
-                            value: false,
-                            styleValue: 0.4
+                    fieldRefId: 'active',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.4
                         }
-                    ]
+                    }
                 }
             ]
         },
         {
-            svgRef: 'topIcon3',
-            iconRef: 'baptism',
+            selector: 'topIcon3',
+            iconRef: 'baptismIcon',
             tooltipFieldRef: 'baptized',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'active',
-                    fieldRefValues: [
-                        {
-                            value: false,
-                            styleValue: 0.4
+                    fieldRefId: 'active',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.4
                         }
-                    ]
+                    }
                 }
             ]
         },
         {
-            svgRef: 'topNumber1',
+            selector: 'topNumber1',
             tooltipFieldRef: 'attenders',
-            state: [
+            states: [
                 {
-                    fieldRef: 'attenders',
-                    setText: true,
-                }
-            ]
-        },
-        {
-            svgRef: 'topNumber2',
-            tooltipFieldRef: 'believers',
-            state: [
-                {
-                    fieldRef: 'believers',
-                    setText: true,
-                }
-            ]
-        },
-        {
-            svgRef: 'topNumber3',
-            tooltipFieldRef: 'baptized',
-            state: [
-                {
-                    fieldRef: 'baptized',
-                    setText: true,
-                }
-            ]
-        },
-        {
-            svgRef: 'topNumber4',
-            tooltipFieldRef: 'newlyBaptized',
-            state: [
-                {
-                    fieldRef: 'newlyBaptized',
-                    setText: true,
-                }
-            ]
-        },
-        {
-            svgRef: 'leftText1',
-            tooltipFieldRef: 'threeThirds',
-            state: [
-                {
-                    fieldRef: 'threeThirds',
+                    fieldRefId: 'attenders',
                     setText: true
                 }
             ]
         },
         {
-            svgRef: 'icon1',
-            iconRef: 'elementBaptism',
+            selector: 'topNumber2',
+            tooltipFieldRef: 'believers',
+            states: [
+                {
+                    fieldRefId: 'believers',
+                    setText: true
+                }
+            ]
+        },
+        {
+            selector: 'topNumber3',
+            tooltipFieldRef: 'baptized',
+            states: [
+                {
+                    fieldRefId: 'baptized',
+                    setText: true
+                }
+            ]
+        },
+        {
+            selector: 'topNumber4',
+            tooltipFieldRef: 'newlyBaptized',
+            states: [
+                {
+                    fieldRefId: 'newlyBaptized',
+                    setText: true
+                }
+            ]
+        },
+        {
+            selector: 'leftText1',
+            tooltipFieldRef: 'threeThirds',
+            states: [
+                {
+                    fieldRefId: 'threeThirds',
+                    setText: true
+                }
+            ]
+        },
+        {
+            selector: 'icon1',
+            iconRef: 'elementBaptismIcon',
             tooltipFieldRef: 'elementBaptism',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'elementBaptism',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: 1
-                        },
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'elementBaptism',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            opacity: 1
                         }
-                    ]
+                    }
+                },
+                {
+                    fieldRefId: 'elementBaptism',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.2
+                        }
+                    }
                 }
             ]
         },
         {
-            svgRef: 'icon2',
-            iconRef: 'elementPrayer',
+            selector: 'icon2',
+            iconRef: 'elementPrayerIcon',
             tooltipFieldRef: 'elementPrayer',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'elementPrayer',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: 1
-                        },
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'elementPrayer',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            opacity: 1
                         }
-                    ]
+                    }
+                },
+                {
+                    fieldRefId: 'elementPrayer',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.2
+                        }
+                    }
                 }
             ]
         },
         {
-            svgRef: 'icon3',
-            iconRef: 'elementMakeDisciples',
+            selector: 'icon3',
+            iconRef: 'elementMakeDisciplesIcon',
             tooltipFieldRef: 'elementMakeDisciples',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'elementMakeDisciples',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: 1
-                        },
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'elementMakeDisciples',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            opacity: 1
                         }
-                    ]
+                    }
+                },
+                {
+                    fieldRefId: 'elementMakeDisciples',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.2
+                        }
+                    }
                 }
             ]
         },
         {
-            svgRef: 'icon4',
-            iconRef: 'elementLove',
+            selector: 'icon4',
+            iconRef: 'elementLoveIcon',
             tooltipFieldRef: 'elementLove',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'elementLove',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: 1
-                        },
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'elementLove',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            opacity: 1
                         }
-                    ]
+                    }
+                },
+                {
+                    fieldRefId: 'elementLove',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.2
+                        }
+                    }
                 }
             ]
         },
         {
-            svgRef: 'icon5',
-            iconRef: 'elementWorship',
+            selector: 'icon5',
+            iconRef: 'elementWorshipIcon',
             tooltipFieldRef: 'elementWorship',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'elementWorship',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: 1
-                        },
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'elementWorship',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            opacity: 1
                         }
-                    ]
+                    }
+                },
+                {
+                    fieldRefId: 'elementWorship',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.2
+                        }
+                    }
                 }
             ]
         },
         {
-            svgRef: 'icon6',
-            iconRef: 'elementLordsSupper',
+            selector: 'icon6',
+            iconRef: 'elementLordsSupperIcon',
             tooltipFieldRef: 'elementLordsSupper',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'elementLordsSupper',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: 1
-                        },
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'elementLordsSupper',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            opacity: 1
                         }
-                    ]
+                    }
+                },
+                {
+                    fieldRefId: 'elementLordsSupper',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.2
+                        }
+                    }
                 }
             ]
         },
         {
-            svgRef: 'icon7',
-            iconRef: 'elementGive',
+            selector: 'icon7',
+            iconRef: 'elementGiveIcon',
             tooltipFieldRef: 'elementGive',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'elementGive',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: 1
-                        },
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'elementGive',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            opacity: 1
                         }
-                    ]
+                    }
+                },
+                {
+                    fieldRefId: 'elementGive',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.2
+                        }
+                    }
                 }
             ]
         },
         {
-            svgRef: 'icon8',
-            iconRef: 'elementWord',
+            selector: 'icon8',
+            iconRef: 'elementWordIcon',
             tooltipFieldRef: 'elementWord',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'elementWord',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: 1
-                        },
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'elementWord',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            opacity: 1
                         }
-                    ]
+                    }
+                },
+                {
+                    fieldRefId: 'elementWord',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.2
+                        }
+                    }
                 }
             ]
         },
         {
-            svgRef: 'icon9',
-            iconRef: 'elementLeaders',
+            selector: 'icon9',
+            iconRef: 'elementLeadersIcon',
             tooltipFieldRef: 'elementLeaders',
-            state: [
+            states: [
                 {
-                    style: 'opacity',
-                    fieldRef: 'elementLeaders',
-                    fieldRefValues: [
-                        {
-                            value: true,
-                            styleValue: 1
-                        },
-                        {
-                            value: false,
-                            styleValue: 0.2
+                    fieldRefId: 'elementLeaders',
+                    fieldRefValue: true,
+                    svg: {
+                        style: {
+                            opacity: 1
                         }
-                    ]
+                    }
+                },
+                {
+                    fieldRefId: 'elementLeaders',
+                    fieldRefValue: false,
+                    svg: {
+                        style: {
+                            opacity: 0.2
+                        }
+                    }
                 }
             ]
         }

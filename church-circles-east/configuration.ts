@@ -1,21 +1,21 @@
-import { GMField, ControlType, TemplateConfiguration } from "../template.interface";
+import { ControlType, TemplateConfiguration } from "../template.interface";
 import { boxHeight } from "./template";
 
-export const GenMapperWorldConfiguration: TemplateConfiguration = {
-    id: 'churchCirclesWorld',
+export const GenMapperEastConfiguration: TemplateConfiguration = {
+    id: 'churchCirclesEast',
     icons: {
-        attenders: 'templates/church-circles-world/icons/attenders.png',
-        believers: 'templates/church-circles-world/icons/believers.png',
-        baptism: 'templates/church-circles-world/icons/baptism.png',
-        leaderwithhat: 'templates/church-circles-world/icons/leaderwithhat.png',
-        leadernohat: 'templates/church-circles-world/icons/leadernohat.png',
-        word: 'templates/church-circles-world/icons/element-word.png',
-        pray: 'templates/church-circles-world/icons/pray.png',
-        fellowship: 'templates/church-circles-world/icons/fellowship.png',
-        arrow: 'templates/church-circles-world/icons/arrow.png',
-        worship: 'templates/church-circles-world/icons/worship.png',
-        cup: 'templates/church-circles-world/icons/cup.png',
-        coin: 'templates/church-circles-world/icons/coin.png',
+        attenders: 'templates/church-circles-east/icons/attenders.png',
+        believers: 'templates/church-circles-east/icons/believers.png',
+        baptism: 'templates/church-circles-east/icons/baptism.png',
+        leaderwithhat: 'templates/church-circles-east/icons/leaderwithhat.png',
+        leadernohat: 'templates/church-circles-east/icons/leadernohat.png',
+        word: 'templates/church-circles-east/icons/element-word.png',
+        pray: 'templates/church-circles-east/icons/pray.png',
+        fellowship: 'templates/church-circles-east/icons/fellowship.png',
+        arrow: 'templates/church-circles-east/icons/arrow.png',
+        worship: 'templates/church-circles-east/icons/worship.png',
+        cup: 'templates/church-circles-east/icons/cup.png',
+        coin: 'templates/church-circles-east/icons/coin.png',
     },
     svgMap: [
         {
@@ -350,7 +350,7 @@ export const GenMapperWorldConfiguration: TemplateConfiguration = {
             controlOrder: 4,
             iconRef: 'leadernohat',
             // svgElementIconRef: 'icon1',
-            // iconUrl: 'templates/church-circles-world/icons/leadernohat.png',
+            // iconUrl: 'templates/church-circles-east/icons/leadernohat.png',
         },
         {
             id: 'leader_has_teachingtraining',
@@ -403,7 +403,7 @@ export const GenMapperWorldConfiguration: TemplateConfiguration = {
             canModify: true,
             iconRef: 'word',
             // svgElementIconRef: 'icon2',
-            // iconUrl: 'templates/church-circles-world/icons/element-word.png',
+            // iconUrl: 'templates/church-circles-east/icons/element-word.png',
         },
         {
             id: 'elementPrayer',

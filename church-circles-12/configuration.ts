@@ -1,4 +1,4 @@
-import { TemplateConfiguration, ControlType } from '../template.interface';
+import { ControlType, TemplateConfiguration } from '../template.interface';
 
 export const ChurchCircles12Configuration: TemplateConfiguration = {
     id: 'churchCircles12',
@@ -677,18 +677,17 @@ export const ChurchCircles12Configuration: TemplateConfiguration = {
         {
             id: 'latitude',
             canModify: false,
-            parseValueAsInt: true,
+            parseValueAsFloat: true,
         },
         {
             id: 'longitude',
             canModify: false,
-            parseValueAsInt: true,
+            parseValueAsFloat: true,
         },
         {
             id: 'placeId',
             canModify: false,
         },
-
         {
             id: 'church',
             i18nRef: 'churchCircles12.isChurch',
